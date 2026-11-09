@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="tr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Torque Drill Parça Katalogları</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@600&family=IBM+Plex+Sans+Condensed:wght@400;500;600;700&display=swap">
+<style>
+:root{--bg:#eef0f2;--panel:#fff;--fg:#1b1f24;--muted:#5d6670;--line:#d5d9de;--accent:#d98a00;--accent-ink:#8a5600;--accent-soft:#fff2d6;
+  --f:"IBM Plex Sans Condensed","Arial Narrow",system-ui,sans-serif;--m:"IBM Plex Mono",ui-monospace,Consolas,monospace}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#15181c;--panel:#1d2126;--fg:#e7eaee;--muted:#9aa3ad;--line:#2f353c;--accent:#f0a420;--accent-ink:#ffc967;--accent-soft:#3a2c10;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#15181c;--panel:#1d2126;--fg:#e7eaee;--muted:#9aa3ad;--line:#2f353c;--accent:#f0a420;--accent-ink:#ffc967;--accent-soft:#3a2c10;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:var(--f);font-size:16px;line-height:1.45}
+.wrap{max-width:960px;margin:0 auto;padding:28px 16px 48px}
+.brand{font-size:12px;font-weight:600;letter-spacing:.16em;text-transform:uppercase;color:var(--muted)}
+h1{margin:6px 0 4px;font-size:clamp(26px,4vw,36px);font-weight:700;letter-spacing:.01em}
+.lead{margin:0 0 26px;color:var(--muted)}
+.grp{font-size:11px;font-weight:600;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:14px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:16px 16px 14px;display:flex;flex-direction:column;gap:8px}
+.card h2{margin:0;font-size:20px;font-weight:700}
+.code{font-family:var(--m);font-size:12px;color:var(--accent-ink);background:var(--accent-soft);border-radius:4px;padding:1px 6px;align-self:flex-start}
+.card p{margin:0;color:var(--muted);font-size:14px}
+.acts{display:flex;flex-wrap:wrap;gap:8px;margin-top:6px}
+.btn{font:inherit;font-size:14px;font-weight:600;text-decoration:none;border:1px solid var(--line);color:var(--fg);background:var(--panel);border-radius:8px;padding:7px 12px}
+.btn.pri{background:var(--accent);border-color:var(--accent);color:#fff}
+.btn:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+footer{margin-top:36px;font-size:12px;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="brand">Torque Drill</div>
+  <h1>Parça Katalogları</h1>
+  <p class="lead">Spare parts catalogs · Bir satıra veya balona tıklayarak parçayı çizimde bulabilirsiniz.</p>
+
+  <div class="grp">Wireline Vinci · Wireline Winch</div>
+  <div class="cards">
+    <article class="card">
+      <h2>TD900D / TD15PRO Wireline Winch</h2>
+      <span class="code">TDWRLN · TDLVLWND</span>
+      <p>Wireline vinci ve Level Wind alt montajı. 27 + 25 kalem.</p>
+      <div class="acts">
+        <a class="btn pri" href="wireline/">İnteraktif katalog</a>
+        <a class="btn" href="wireline/TD900D-TD15PRO_Wireline_Winch_Parca_Katalogu_TR.pdf">PDF (TR)</a>
+        <a class="btn" href="wireline/TD900D-TD15PRO_Wireline_Winch_Parts_Catalog_EN.pdf">PDF (EN)</a>
+      </div>
+    </article>
+  </div>
+
+  <footer>© Torque Drill · P.M.S İş Makinaları Yedek Parça Dök. San. Dış. Tic. Ltd. Şti.</footer>
+</div>
+</body>
+</html>
